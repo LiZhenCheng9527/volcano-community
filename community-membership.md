@@ -87,12 +87,17 @@ Has overall knowledge of the project and features in the project.
 ### Requirements
 
 - Deep understanding of the technical goals and direction of the project.
-- Deep understanding of the technical domain (specifically the language) of the project.
-- Sustained contributions to design and direction by doing all of:
-  - Authoring and reviewing proposals
-  - Initiating, contributing and resolving discussions (e.g. emails, GitHub issues, meetings)
+- Deep understanding of the project's technical domain, architecture, and operational context.
+- Approver for at least 2 months
+- Sustained and substantive contributions to the project's technical direction and community, demonstrated through a combination of:
+  - Authoring or reviewing proposals and designs
+  - Initiating, contributing to, or resolving technical discussions (e.g. emails, GitHub issues, meetings)
   - Identifying subtle or complex issues in designs and implementation PRs
-- Nominated by a maintainer and pass super-majority(two-thirds/ 66.66%) vote.
+  - Contributing to implementation, testing, release, operations, security, documentation, or mentoring
+- Nominated by a Maintainer and passing a super-majority(two-thirds / 66.66%) vote by all current Maintainers.
+  - The nomination must include evidence addressing the requirements above.
+  - Voting remains open for at least seven calendar days. A Maintainer who does not vote is not counted as supporting the nomination.
+  - The nomination issue records the eligible electorate, votes, and final decision.
 
 ### Responsibilities and privileges
 
@@ -112,20 +117,25 @@ _Members are continuously active contributors in the community._
 
 A core principle in maintaining a healthy community is encouraging active participation. It is inevitable that people's focuses will change over time and they are not expected to be actively contributing forever.
 
-However, serving as a maintainer or approver for one of the Volcano GitHub organizations comes with an elevated set of permissions. These capabilities should not be used by those that are not familiar with the current state of the Volcano project.
+However, serving as a maintainer, approver or reviewer for one of the Volcano GitHub organizations comes with an elevated set of permissions. These capabilities should not be used by those that are not familiar with the current state of the Volcano project.
 
-Therefore Maintainers or Approver who is extended period away from the project with no activity will be removed from the Volcano Github Organizations and will be required to go through the org membership process again after re-familiarizing themselves with the current state.
+Therefore, members who have been away from the project for an extended period with no activity may have their community role and associated repository permissions reviewed and adjusted following the process below.
 
 ### How inactivity is measured
 
-Inactive members are defined as members of one of the Volcano Organizations with **no** contributions across any organization within 18 months. This is measured by the CNCF [DevStats project].
+Potential inactivity is identified when a member has no recorded contributions across any Volcano organization within 18 months, based on CNCF [DevStats project] and [LFX Insight].
 
 **Note:** Devstats does not take into account non-code contributions. If a non-code contributing member is accidentally removed this way, they may open an issue to quickly be re-instated.
 
-After an extended period away from the project with no activity those members would need to re-familiarize themselves with the current state before being able to contribute effectively.
+**Note:** DevStats and LFX Insight may not capture all non-code contributions, it is a signal for review rather than an automatic removal trigger.
+
+Before a role or permission change, the Maintainers will notify the person and allow at least 30 days for a response or relevant evidence of non-code contribution. The Maintainers then record the decision in an issue.
+
+A returning former Reviewer, Approver or Maintainer may request reactivation after re-familiarizing themselves with the current state of the project. The Maintainers will review the person's recent contributions and grant the appropriate role and repository scope; reactivation does not automatically restore the previous role or permissions.
 
 
 **Note :** These roles are applicable only for Volcano github organization and repositories. Currently Volcano doesn't have a formal process for review and acceptance into these roles. We will come-up with a process soon.
 
 [two-factor authentication]: https://help.github.com/articles/about-two-factor-authentication
 [Devstats project]: https://volcano.devstats.cncf.io/
+[LFX Insight]: https://insights.linuxfoundation.org/project/Volcano
